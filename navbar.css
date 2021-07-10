@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Festive&display=swap');
+.nav-link{
+	margin-right: 15px;
+	color: #39A2DB;
+	letter-spacing: 0.5px;
+	transition: 0.5s;
+	font-weight: 900;
+	font-size: 30px;
+	font-family: 'Amatic SC', cursive;
+
+}
+.navbar-brand{
+	color: #39A2DB;
+	letter-spacing: 0.5px;
+	font-weight: 900;
+	font-size: 30px;
+	font-family: 'Amatic SC', cursive;
+
+}
+h2{
+	color: #39A2DB;
+	letter-spacing: 0.5px;
+	font-weight: 900;
+	font-size: 30px;
+	font-family: 'Amatic SC', cursive;
+
+}

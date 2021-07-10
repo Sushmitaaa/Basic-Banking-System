@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Festive&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Amatic SC', cursive;
+    
+
+	
+}
+
+body{
+	background-color: #A2DBFA;
+	color: #39A2DB;
+}
+h3  {
+	font-size: 35px ;
+}
+p{
+	font-size: 20px;
+}
+
+.intro{
+	background: #EAF0F1;
+
+}
+h1{
+	color: #39A2DB;
+	font-weight: bold;
+	transition: 0.5s;
+	text-align: center;
+	font-size: 65px;
+	font-weight: 900;
+
+}
+.container{
+	display: flex;
+	justify-content: center;
+	position: relative;
+
+}
+
+button{
+	border:none;
+	border-radius: 8px;
+	padding: 20px;
+	background:#39A2DB; 
+	color:white;
+	letter-spacing: 1.5px;
+	font-size: 20px;
+	font-weight: 700;
+	transition: 0.5s;
+}
+button:hover,h1:hover{
+	transform: scale(1.1);
+}
+button:hover{
+	background-color:#053742;
+}
+
+.im{
+	width: 250px;
+	height: 250px;
+}
+.action{
+	text-align: center;
+	text-decoration: underline;
+	font-family: 'Roboto Slab', serif;
+}
+
+@media only screen and (orientation:portrait){
+	.intro{
+		display:flex;
+		flex-direction: column-reverse;
+	}
+	h1{
+		font-size: 40px;
+	}
+	.act{
+		padding-bottom: 100px;
+	}
+
+}
